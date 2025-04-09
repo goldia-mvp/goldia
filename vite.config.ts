@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/goldia/', // Añadimos la base path para GitHub Pages
   plugins: [
     react(),
     mode === 'development' &&
